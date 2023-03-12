@@ -21,14 +21,14 @@
 		color:  #000;
 		font-size:32px;
 		font-weight:300;
-		width: 1572px;
+		width: 100%;
 	}
 
 	h2 {
 		color:  #444;	
 		font-size:27px;
 		font-weight:300;
-		width: 1572px;
+		width: 100%;
 	}
 
 	.disclaimerbox {
@@ -169,13 +169,13 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px; color:#000;"  width=1572px>Video Probabilistic Diffusion Models in Projected Latent Space</span>
+		<span style="font-size:36px; color:#000;"  width=100%>Video Probabilistic Diffusion Models in Projected Latent Space</span>
 		<br>
 		<br>
-		<table align=center width=600px>
-			<table align=center width=600px>
+		<table align=center width=100%>
+			<table align=center width=100%>
 				<tr>
-					<td align=center width=100px>
+					<td align=center width=100%>
 						<center>
 							<span style="font-size:24px">
 								<a href="https://sihyun.me/">Sihyun Yu</a><sup>1</sup>,
@@ -202,7 +202,7 @@
 			</table>
 		</table>
 	</center><br>
-	<table align=center width=1310px>
+	<table align=center width=100%>
 		<tr>
 			<td style="text-align:center;">
 				<b>Note:</b> If some videos are not displayed properly, try out refreshing the page!
@@ -213,7 +213,7 @@
 
 	<center><h1>Abstract</h1></center>
 	<hr>
-	<table align=center width=1310px>
+	<table align=center width=100%>
 		<tr>
 			<td style="text-align:justify;">
 				Despite the remarkable progress in deep generative models, synthesizing high-resolution and temporally coherent videos still remains a challenge due to their high-dimensionality and complex temporal dynamics along with large spatial variations. Recent works on diffusion models have shown their potential to solve this challenge, yet they suffer from severe computation- and memory-inefficiency that limit the scalability. To handle this issue, we propose a novel generative model for videos, coined projected latent video diffusion models (PVDM), a probabilistic diffusion model which learns a video distribution in a low-dimensional latent space and thus can be efficiently trained with high-resolution videos under limited resources. Specifically, PVDM is composed of two components: (a) an autoencoder that projects a given video as 2D-shaped latent vectors that factorize the complex cubic structure of video pixels and (b) a diffusion model architecture specialized for our new factorized latent space and the training/sampling procedure to synthesize videos of arbitrary length with a single model. Experiments on popular video generation datasets demonstrate the superiority of PVDM compared with previous video synthesis methods; e.g., PVDM obtains the FVD score of 639.7 on the UCF-101 long video (128 frames) generation benchmark, which improves 1773.4 of the prior state-of-the-art.		
@@ -226,7 +226,7 @@
 	<center><h1> Main Result </h1></center>
 	<hr>
 
-	<table align=center width=1310px>
+	<table align=center width=100%>
 		<tr>
 			<td style="text-align:center;">
 				<b>Note:</b> We provide both short and long videos from our method; note that short videos of baselines correspond to the consecutively subsampled 16 frames in long video examples! For a fair comparison, we use qualitative results of baselines (DIGAN and StyleGAN-V) from the official StyleGAN-V <a href="https://universome.github.io/stylegan-v">webpage</a>.
@@ -239,7 +239,7 @@
 	<center><h2> Short video (16 frames) </h2></center>
 	<hr>
 
-	<table align=center width=1572px>
+	<table align=center width=100%>
 		<tr>
 			<td align=center width="130" height="81">
 				<b>PVDM (ours)</b>
@@ -290,7 +290,7 @@
 	<center><h2> Long video (128 frames) </h2></center>
 	<hr>
 
-	<table align=center width=1572px>
+	<table align=center width=100%>
 		<center>
 			<tr>
 				<td align=center width="130" height="81">
@@ -422,7 +422,7 @@
 
 	<center><h1>Acknowledgement</h1></center>
 	<hr>
-	<table align=center width=1310px>
+	<table align=center width=100%>
 		<tr>
 			<td style="text-align:justify;">
 				SY thanks Jaehyung Kim, Jihoon Tack, and Younggyo Seo for their helpful discussions and comments.
